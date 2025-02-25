@@ -1,0 +1,1 @@
+Does this image contain a scene of protest? Code “Protest” if it contains; code “Not protest” if it does not contain. The output should always be in this format: [the code is: xxx, the reason is: xxx]

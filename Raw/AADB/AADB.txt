@@ -1,0 +1,1 @@
+Answer the following question: On a 1 to 5 scale (1 = low-aesthetic; 5 = high-aesthetic), please rate the aesthetic score for the photo. Start your answer with a number and your answer should always be in this format: [the rating is: xxx, the reason is: xxx].
