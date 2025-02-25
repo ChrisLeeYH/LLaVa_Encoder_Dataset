@@ -93,7 +93,7 @@ pip install -r requirements.txt
     ```
 
 4. **Takeaway**
-All we need to do for run the script on each dataset can be concluded as follows:
+All we need to do for runnning the script on each dataset can be concluded as follows:
 
     - Deploy the Ollama and llava:34b locally.
     - Clone and Navigate to this folder, setting it as root directory.
