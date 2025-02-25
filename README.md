@@ -1,4 +1,4 @@
-# LLaVA Image Processing with Prompts For Each Dataset
+# LLaVA Image Processing with Prompts for Each Dataset
 
 This project leverages the LLaVA (Large Language and Vision Assistant) model to process images from a given folder and respond to prompts stored in text files. The results for each image and prompt combination are saved in CSV files, and the total runtime of the processing is logged in a separate text file.
 
@@ -14,17 +14,17 @@ This project leverages the LLaVA (Large Language and Vision Assistant) model to 
 
 - Python 3.10
 - `ollama` localhost
-- Required Python libraries: `requiremnets.text`
+- Required Python libraries: `requirements.txt`
 
 ## Full Deployment Flows
-1. **Ollama Localhost Depolyment (NECESSARY!)**
+1. **Ollama Localhost Deployment (NECESSARY!)**
 - Download `ollama.exe` from the following link: https://ollama.com/
 - After installing `ollama.exe`, in cmd (win+R):
 ```bash
 ollama run llava:34b
 ```
 
-- Here, due to some issues of prompts, the outputs from LLaVa 13b are not ideal in tests, so llava:34b is strongly recommended.
+- Here, due to some issues of prompts, the outputs from LLaVA 13b are not ideal in tests, so llava:34b is strongly recommended.
 
 - We use this step to download and to deploy llava:34b locally for further use.
 
@@ -35,7 +35,7 @@ git clone https://github.com/ChrisLeeYH/LLaVa_Encoder_Dataset.git
 cd LLaVA_Encoder_Dataset
 ```
 
-- Deploy the virtual environment and install packages.
+- Set up the virtual environment and install the required packages.
 
 ```Shell
 conda create -n llava python=3.10 -y
@@ -59,7 +59,7 @@ pip install -r requirements.txt
     python <Dataset_Name>.py <image_folder_path> <prompt_folder_path>
     ```
 
-    - `<image_folder>`: Path to the folder containing the images, which need to be replaced with the real folder path.
+    - `<image_folder>`: Path to the folder containing the images (replace with the actual folder path).
     - `<prompt_folder>`: Path to the folder containing the prompt text files, which I have set already.
 
     Example:
@@ -93,11 +93,11 @@ pip install -r requirements.txt
     ```
 
 4. **Takeaway**
-All we need to do for runnning the script on each dataset can be concluded as follows:
+To run the script for each dataset, follow these steps:
 
     - Deploy the Ollama and llava:34b locally.
     - Clone and Navigate to this folder, setting it as root directory.
-    - Because the Ollama must be deployed and applied locally, directly accessing the dataset through the url (i.e., googld drive link) is impractical. Directly downloading and puting all datasets folders in the `./Data` folder, which I have set already, is highly recommended and efficient. For each dataset, check the last line of the script (which is a comment) and replace the <image_folder_path> with the real folder path. All commands could be concluded like:
+    - Since Ollama must be deployed locally, directly accessing datasets via URLs (e.g., Google Drive links) is impractical. Directly downloading and placing all datasets folders in the `./Data` folder, which I have set already, is highly recommended and efficient. For each dataset, check the last line of the script (which is a comment) and replace the <image_folder_path> with the real folder path. All commands can be summarized as follows:
 
     ```
     python <Dataset_Name>.py(no need to change) <image_folder_path>(should be changed to real folder path) <prompt_folder_path>(no need to change)
@@ -126,7 +126,7 @@ All we need to do for runnning the script on each dataset can be concluded as fo
 
     $ python UCLA_Protest_Occurence.py Data/UCLA_Protest_Occurence Raw/UCLA_Protest_Occurence # For Protest Occurence in UCLA Datasets
     ```
-    **All we need to do is to replace the `<Data/Dataset_Name>` with the `<real folder path for the dataset>`, and run the script in terminal.**
+    **All we need to modify is to simply replace <Data/Dataset_Name> with the actual folder path for the dataset and run the script in the terminal.**
 
 
 
