@@ -126,7 +126,7 @@ All we need to do for run the script on each dataset can be concluded as follows
 
     $ python UCLA_Protest_Occurence.py Data/UCLA_Protest_Occurence Raw/UCLA_Protest_Occurence # For Protest Occurence in UCLA Datasets
     ```
-    **All we need to do is replace the `<Data/Dataset_Name>` with the `<real folder path for the dataset>`, and run the script in terminal.**
+    **All we need to do is to replace the `<Data/Dataset_Name>` with the `<real folder path for the dataset>`, and run the script in terminal.**
 
 
 
