@@ -54,5 +54,5 @@ if __name__ == "__main__":
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
-# python NAPSBE.py ./test Raw/NAPSBE
+# python NAPSBE.py Data/NAPSBE Raw/NAPSBE
 

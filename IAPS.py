@@ -53,5 +53,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
-# python IAPS.py ./test Raw/IAPS
+# python IAPS.py Data/IAPS Raw/IAPS
 

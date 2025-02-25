@@ -54,5 +54,5 @@ if __name__ == "__main__":
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
-# python AADB.py ./test Raw/AADB
+# python AADB.py Data/AADB Raw/AADB
 

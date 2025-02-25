@@ -54,5 +54,5 @@ if __name__ == "__main__":
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
-# python ACI.py ./test Raw/ACI
+# python ACI.py Data/ACI Raw/ACI
 

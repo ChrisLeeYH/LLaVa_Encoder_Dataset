@@ -54,5 +54,5 @@ if __name__ == "__main__":
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
-# python GAPED.py ./test Raw/GAPED
+# python GAPED.py Data/GAPED Raw/GAPED
 

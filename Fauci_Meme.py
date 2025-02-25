@@ -54,5 +54,5 @@ if __name__ == "__main__":
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
-# python Fauci_Meme.py ./test Raw/Fauci_Meme
+# python Fauci_Meme.py Data/Fauci_Meme Raw/Fauci_Meme
 

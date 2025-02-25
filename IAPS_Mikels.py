@@ -54,5 +54,5 @@ if __name__ == "__main__":
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
-# python IAPS_Mikels.py ./test Raw/IAPS_Mikels
+# python IAPS_Mikels.py Data/IAPS_Mikels Raw/IAPS_Mikels
 
