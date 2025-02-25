@@ -18,8 +18,8 @@ This project leverages the LLaVA (Large Language and Vision Assistant) model to 
 
 ## Full Deployment Flows
 1. **Ollama Localhost Deployment (NECESSARY!)**
-- Download `ollama.exe` from the following link: https://ollama.com/
-- After installing `ollama.exe`, in cmd (win+R):
+- Download `ollama` from the following link: https://ollama.com/
+- After installing `ollama`, in terminal:
 ```bash
 ollama run llava:34b
 ```
@@ -97,7 +97,7 @@ To run the script for each dataset, follow these steps:
 
     - Deploy the Ollama and llava:34b locally.
     - Clone and Navigate to this folder, setting it as root directory.
-    - Since Ollama must be deployed locally, directly accessing datasets via URLs (e.g., Google Drive links) is impractical. Directly downloading and placing all datasets folders in the `./Data` folder, which I have set already, is highly recommended and efficient. For each dataset, check the last line of the script (which is a comment) and replace the <image_folder_path> with the real folder path. All commands can be summarized as follows:
+    - Since Ollama must be deployed locally(or on the linux server), directly accessing datasets via URLs (e.g., Google Drive links) is impractical. Directly downloading and placing all datasets folders in the `./Data` folder, which I have set already, is highly recommended and efficient. For each dataset, check the last line of the script (which is a comment) and replace the <image_folder_path> with the real folder path. All commands can be summarized as follows:
 
     ```
     python <Dataset_Name>.py(no need to change) <image_folder_path>(should be changed to real folder path) <prompt_folder_path>(no need to change)
