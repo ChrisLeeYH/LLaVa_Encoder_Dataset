@@ -54,5 +54,5 @@ if __name__ == "__main__":
     
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
-# python UCLA.py ./test Raw/UCLA
+# python UCLA_Protest_Occurence.py ./test Raw/UCLA_Protest_Occurence
 

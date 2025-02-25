@@ -55,5 +55,5 @@ if __name__ == "__main__":
     process_all_prompts(args.image_folder, args.prompt_folder, args.repeat)
 
 
-# python Media_Bias.py ./test Raw/Media_Bias
+# python Media_Bias_Politician_Attitudes.py ./test Raw/Media_Bias_Politician_Attitudes
 
